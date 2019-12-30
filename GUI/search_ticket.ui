@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>370</width>
-    <height>210</height>
+    <width>465</width>
+    <height>226</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,10 +17,10 @@
    <widget class="QWidget" name="horizontalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>50</y>
-      <width>160</width>
-      <height>80</height>
+      <x>260</x>
+      <y>60</y>
+      <width>171</width>
+      <height>81</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
@@ -35,7 +35,7 @@
         </font>
        </property>
        <property name="text">
-        <string>חיפוש</string>
+        <string>SEARCH</string>
        </property>
       </widget>
      </item>
@@ -44,10 +44,10 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>120</x>
       <y>10</y>
-      <width>121</width>
-      <height>20</height>
+      <width>191</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="font">
@@ -56,16 +56,16 @@
      </font>
     </property>
     <property name="text">
-     <string>חיפוש דו&quot;ח לפי</string>
+     <string>FIND REPORT BY:</string>
     </property>
    </widget>
    <widget class="QWidget" name="verticalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>50</y>
-      <width>101</width>
-      <height>81</height>
+      <x>20</x>
+      <y>60</y>
+      <width>191</width>
+      <height>108</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
@@ -77,10 +77,10 @@
         </font>
        </property>
        <property name="layoutDirection">
-        <enum>Qt::RightToLeft</enum>
+        <enum>Qt::LeftToRight</enum>
        </property>
        <property name="text">
-        <string>מס רישוי</string>
+        <string>LICENSE PALTE NUMBER</string>
        </property>
       </widget>
      </item>
@@ -92,10 +92,10 @@
         </font>
        </property>
        <property name="layoutDirection">
-        <enum>Qt::RightToLeft</enum>
+        <enum>Qt::LeftToRight</enum>
        </property>
        <property name="text">
-        <string>שעת עבירה</string>
+        <string>TIME</string>
        </property>
       </widget>
      </item>
@@ -107,10 +107,25 @@
         </font>
        </property>
        <property name="layoutDirection">
-        <enum>Qt::RightToLeft</enum>
+        <enum>Qt::LeftToRight</enum>
        </property>
        <property name="text">
-        <string>מיקום עבירה</string>
+        <string>LOCATION</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_4">
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="text">
+        <string>TICKET ID</string>
        </property>
       </widget>
      </item>
@@ -122,8 +137,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>370</width>
-     <height>18</height>
+     <width>465</width>
+     <height>21</height>
     </rect>
    </property>
   </widget>

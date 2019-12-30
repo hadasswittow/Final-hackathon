@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>253</width>
-    <height>200</height>
+    <height>291</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,8 +19,8 @@
      <rect>
       <x>50</x>
       <y>20</y>
-      <width>160</width>
-      <height>127</height>
+      <width>173</width>
+      <height>167</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
@@ -32,7 +32,7 @@
         </font>
        </property>
        <property name="text">
-        <string>תפריט ראשי</string>
+        <string>MAIN MENU</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -47,7 +47,7 @@
         </font>
        </property>
        <property name="text">
-        <string>שליחת דוחות</string>
+        <string>SEND REPORTS</string>
        </property>
       </widget>
      </item>
@@ -59,7 +59,7 @@
         </font>
        </property>
        <property name="text">
-        <string>צפייה בערעורים</string>
+        <string>VIEW APPEALS</string>
        </property>
       </widget>
      </item>
@@ -71,7 +71,7 @@
         </font>
        </property>
        <property name="text">
-        <string>חיפוש דוחות </string>
+        <string>FIND REPORTS</string>
        </property>
       </widget>
      </item>
@@ -83,7 +83,7 @@
         </font>
        </property>
        <property name="text">
-        <string>רשימת הדוחות</string>
+        <string>ALL REPORTS</string>
        </property>
       </widget>
      </item>
@@ -96,7 +96,7 @@
      <x>0</x>
      <y>0</y>
      <width>253</width>
-     <height>18</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
