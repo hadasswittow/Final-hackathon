@@ -17,7 +17,7 @@
   </component>
   <component name="ProjectId" id="1VeHTm541KiT9DLEcfc4EYE7VTX" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/examples/src/pyqt-official/qtdemo" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/recognize-license-plate-master" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -164,9 +164,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/search_ticket_function.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/main_menu_function.py</url>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

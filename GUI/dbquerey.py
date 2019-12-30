@@ -43,6 +43,14 @@ def get_all_reports():
     return report_list.find({})
 
 
+def get_appealed_reports():
+    return report_list.find({'status': "appealed"})  # to change to appealed
+
+
+def get_non_sent_reports():
+    return report_list.find({'status': "non_sent"})  # to change to appealed
+
+
 def get_report_img(report_id):
     return report_list.find({'report_id': report_id})[0]['image']
 
@@ -67,7 +75,11 @@ def get_report_by_area(area):
     return report_list.find({'area': area})
 
 
-def add_report(license, date, time, image, area):
+def get_report_by_status(status):
+    return report_list.find({'status': status})  # could be appealed, non-appealed, not-sent, denied
+
+
+def add_report(license, date, time, image, area, status):
     # global re_id
     # re_id += 1
     report_info = {
@@ -77,6 +89,7 @@ def add_report(license, date, time, image, area):
         'time': time,
         'image': image,
         'area': area,
+        'status': status
     }
     report.insert_one(report_info)
 

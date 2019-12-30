@@ -41,17 +41,17 @@
     </column>
     <column>
      <property name="text">
-      <string>IMAGE</string>
-     </property>
-    </column>
-    <column>
-     <property name="text">
       <string>DATE</string>
      </property>
     </column>
     <column>
      <property name="text">
       <string>TIME</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>IMAGE</string>
      </property>
     </column>
     <column>
@@ -63,7 +63,7 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>220</x>
       <y>40</y>
       <width>221</width>
       <height>21</height>
@@ -76,6 +76,19 @@
     </property>
     <property name="text">
      <string>LIST OF REPORTS</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sendButton">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>290</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SEND REPORTS</string>
     </property>
    </widget>
   </widget>

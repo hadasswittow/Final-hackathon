@@ -15,6 +15,7 @@ class search_ticket(Ui_MainWindow, QMainWindow):
         self.list_of_all_reports = list_of_all_reports()
 
     def search(self):
+        self.list_of_all_reports = list_of_all_reports()
 
         if self.radioButton.isChecked():
             result = get_report_by_license(self.lineEdit.text())
@@ -27,12 +28,13 @@ class search_ticket(Ui_MainWindow, QMainWindow):
 
         if self.radioButton_4.isChecked():
             result = get_report(self.lineEdit.text())
-        self.list_of_all_reports = list_of_all_reports()
-        self.ticket_info = ticket_info()
+
 
         if result.count() > 1:
             self.list_of_all_reports.show_tickets_info(result)
             self.list_of_all_reports.show()
+
+
         else:
             self.ticket_info.show_ticket_info(result)
             self.ticket_info.show()
