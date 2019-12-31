@@ -4,37 +4,9 @@ import pymongo
 
 client = MongoClient()
 
-db = client.get_database("hackaton")
+db = client.get_database("hackathon")
 report = db.get_collection("reports")
 re_id = 1
-
-# report_info = [
-#     {
-#         'report_id': 1,
-#         'license_number': '1233456',
-#         'date': '11.12.13',
-#         'time': '10:50',
-#         'image': 'link',
-#         'area': '90',
-#     },
-#     {
-#         'report_id': 2,
-#         'license_number': '234556',
-#         'date': '12.12.13',
-#         'time': '10:50',
-#         'image': 'link',
-#         'area': '90',
-#     },
-#     {
-#         'report_id': 3,
-#         'license_number': '564478',
-#         'date': '11.12.13',
-#         'time': '10:50',
-#         'image': 'link',
-#         'area': '90',
-#     },
-# ]
-# report.insert_many(report_info)
 
 report_list = db.get_collection("reports")
 
