@@ -4,10 +4,9 @@
     <list default="true" id="25405a75-9918-488e-b47e-184b6ff8aab7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dbquerey.py" beforeDir="false" afterPath="$PROJECT_DIR$/dbquerey.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list_all_reports.py" beforeDir="false" afterPath="$PROJECT_DIR$/list_all_reports.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search_ticket.py" beforeDir="false" afterPath="$PROJECT_DIR$/search_ticket.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticket_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list_of_all_reports_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/list_of_all_reports_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_menu_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_menu_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket_info_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticket_info_function.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -191,15 +190,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main_menu_function.py</url>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

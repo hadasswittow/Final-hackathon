@@ -13,7 +13,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(498, 354)
+        MainWindow.resize(560, 354)
         MainWindow.setStyleSheet("/*Copyright (c) DevSec Studio. All rights reserved.\n"
 "\n"
 "MIT License\n"
@@ -1005,7 +1005,7 @@ class Ui_MainWindow(object):
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.tableWidget_2 = QtWidgets.QTableWidget(self.centralwidget)
-        self.tableWidget_2.setGeometry(QtCore.QRect(20, 70, 461, 201))
+        self.tableWidget_2.setGeometry(QtCore.QRect(20, 70, 521, 201))
         self.tableWidget_2.setRowCount(0)
         self.tableWidget_2.setColumnCount(6)
         self.tableWidget_2.setObjectName("tableWidget_2")
@@ -1022,17 +1022,18 @@ class Ui_MainWindow(object):
         item = QtWidgets.QTableWidgetItem()
         self.tableWidget_2.setHorizontalHeaderItem(5, item)
         self.label = QtWidgets.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(200, 40, 221, 21))
+        self.label.setGeometry(QtCore.QRect(0, 40, 561, 21))
         font = QtGui.QFont()
         font.setPointSize(16)
         self.label.setFont(font)
+        self.label.setAlignment(QtCore.Qt.AlignCenter)
         self.label.setObjectName("label")
         self.sendButton = QtWidgets.QPushButton(self.centralwidget)
-        self.sendButton.setGeometry(QtCore.QRect(190, 280, 131, 23))
+        self.sendButton.setGeometry(QtCore.QRect(210, 280, 131, 23))
         self.sendButton.setObjectName("sendButton")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 498, 20))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 560, 20))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)

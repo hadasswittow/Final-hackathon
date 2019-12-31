@@ -39,8 +39,9 @@ class main_menu(Ui_MainWindow, QMainWindow):
         self.list_of_all_reports.show()
 
     def send_reports(self):
-        self.list_of_all_reports = get_non_sent_reports()
-        result = get_appealed_reports()
+        self.list_of_all_reports = list_of_all_reports()
+        self.list_of_all_reports.sendButton.setVisible(True)
+        result = get_non_sent_reports()
         self.list_of_all_reports.show_tickets_info(result)
         self.list_of_all_reports.show()
 

@@ -20,7 +20,7 @@ def get_appealed_reports():
 
 
 def get_non_sent_reports():
-    return report_list.find({'status': "non_sent"})  # to change to appealed
+    return report_list.find({'status': "not_sent"})  # to change to appealed
 
 
 def get_report_img(report_id):
@@ -49,6 +49,25 @@ def get_report_by_area(area):
 
 def get_report_by_status(status):
     return report_list.find({'status': status})  # could be appealed, non-appealed, not-sent, denied
+
+
+def set_status_to_sent():
+    myquery = {"status": "not_sent"}
+    newvalues = {"$set": {"status": "sent"}}
+
+    report_list.update_many(myquery, newvalues)
+
+
+def set_status_to_appealed():
+    myquery = {"status": "sent"}
+    newvalues = {"$set": {"status": "appealed"}}
+
+    report_list.update_many(myquery, newvalues)
+
+
+def set_status_to_non_appealed():
+    myquery = {"status": "sent"}
+    newvalues = {"$set": {"status": "non_appealed"}}
 
 
 def add_report(license, date, time, image, area, status):

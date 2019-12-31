@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>598</width>
-    <height>423</height>
+    <width>679</width>
+    <height>482</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -1009,7 +1009,7 @@ QProgressBar::chunk
      <rect>
       <x>40</x>
       <y>20</y>
-      <width>521</width>
+      <width>591</width>
       <height>361</height>
      </rect>
     </property>
@@ -1029,7 +1029,7 @@ QProgressBar::chunk
       <rect>
        <x>20</x>
        <y>60</y>
-       <width>271</width>
+       <width>341</width>
        <height>221</height>
       </rect>
      </property>
@@ -2586,7 +2586,7 @@ QSlider::sub-page:horizontal:disabled{
     <widget class="QGroupBox" name="groupBox_2">
      <property name="geometry">
       <rect>
-       <x>300</x>
+       <x>370</x>
        <y>60</y>
        <width>201</width>
        <height>251</height>
@@ -2604,9 +2604,9 @@ QSlider::sub-page:horizontal:disabled{
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>20</y>
+        <y>50</y>
         <width>201</width>
-        <height>241</height>
+        <height>171</height>
        </rect>
       </property>
       <property name="text">
@@ -2621,7 +2621,7 @@ QSlider::sub-page:horizontal:disabled{
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>598</width>
+     <width>679</width>
      <height>20</height>
     </rect>
    </property>
