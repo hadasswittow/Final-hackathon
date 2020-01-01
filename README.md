@@ -8,7 +8,7 @@
 
 
 #### Detecting cars crossing over a continuous white line, and automaticly sending tickets.
-#### the progect was done using Raspberry pei and open cv, implemented in c++ and python.
+#### the project was done using Raspberry pei and open cv, implemented in c++ and python.
 
 #### Detecting car crossing line:
 ![alt text](https://github.com/Elevationacademy/final-hackathon-chedva-michal-hadass-esti/blob/master/img_01-01-2020_13-55-04_90_0.jpg)
