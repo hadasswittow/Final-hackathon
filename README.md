@@ -13,8 +13,9 @@
 
 
 
-#### please ensure to download: 
+#### Technological tools: 
 * Python 3.7
+* Flask
 * open cv for c++
 * mongoDB
 * pyqt5
